@@ -1,0 +1,184 @@
+
+footer {
+	width: 99%;
+	text-align: center;
+	padding:20px 0;
+}
+
+.outerWrapper {
+	margin-top: 43px;
+    width: 1170px;
+}
+
+.item {
+	float:left;
+	padding:5px;	
+	border-radius:5px;
+}
+
+.item div {
+
+	width:99%;
+	height:99%;
+	color:white;
+
+	text-align:center;
+	line-height: 162px;
+	font-size:60px;
+
+}
+
+.left-nav-btn, .right-nav-btn {
+	position:absolute;
+	width:37px;
+	height:37px;
+	top:40%;
+	cursor:pointer;
+	opacity: 0.8;
+	background:transparent url('images/arrows.png') top left no-repeat;
+	-webkit-transition:opacity 0.2s linear;
+  	-moz-transition:opacity 0.2s linear;
+  	-o-transition:opacity 0.2s linear;
+  	transition:opacity 0.2s linear;
+}
+
+.left-nav-btn {
+	left:-45px;
+}
+
+.right-nav-btn {
+	right:-60px;
+	background-position: top right;
+}
+
+.left-nav-btn:hover, .right-nav-btn:hover {
+	opacity: 1;
+}
+
+/* Vertical Mode */
+
+.vert.outerWrapper {
+	margin:50px auto 60px auto;
+	width:204px;
+	height:456px;
+}
+
+.vert .item {
+	float:left;
+	margin-bottom:48px;
+	width:162px;
+}
+
+.vert .left-nav-btn, .vert .right-nav-btn {
+	position:absolute;
+	width:37px;
+	height:37px;
+	cursor:pointer;
+	left:82px;
+	background:transparent url('images/arrows_vert.png') top left no-repeat;
+}
+
+.vert .left-nav-btn {
+	top:-60px;
+}
+
+.vert .right-nav-btn {
+	top:auto;
+	bottom:-60px;
+	background-position: bottom left;
+}
+
+.leftWrapper {
+	width:48%;
+	float:left;
+}
+
+.rightWrapper {
+	width:48%;
+	float:right;
+}
+
+.leftWrapper h2, .rightWrapper h2 {
+	width:100%;
+	text-align:center;
+}
+
+.outerWrapper2 .item {
+	margin-right:50px;
+	width:110px;
+	padding:20px;
+}
+
+/* Pager */
+
+.pager {
+	line-height: 100px;
+	text-align: center;
+}
+
+.pager > span {
+	cursor: pointer;
+	border-radius:8px;
+	display: inline-block;
+	width:16px;
+	height:16px;
+	background: #DDDDDD;
+	border:1px solid #B3B3B3;
+	margin:0 4px;
+	overflow: none;
+}
+
+.pager > span.active {
+	background: #B3B3B3;
+}
+
+.pager > span > span {
+	display: none;
+}
+
+/* Counter (See Example 7) */
+
+#counter {
+	margin-top:-30px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.special_offer{
+	background: url('images/slider.png');
+	background-repeat: no-repeat;
+   background-size: 280px 350px;
+}
+
+
+.special_offer p.percent{
+position: relative;
+    bottom: 40px;
+    font-size: 16px;
+    color: #000;
+}
+p.udemy {
+    position: relative;
+    bottom: 183px;
+    color:#ff7f50;
+    font-size: 23px;
+}
+p.online {
+    position: relative;
+    bottom: 330px;
+    color: grey;
+    font-size: 14px;
+}
+.special_offer img
+{
+	width: 281px;
+}
+.mask{
+	height: 400px !important;
+}
+#special_offer_bg{
+	background-image: url("images/Rectangle\ 3064@2x.png");
+	background-repeat: no-repeat;
+	
+}

@@ -1,0 +1,269 @@
+.container-fluid{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+#navbarSupportedContent ul li{
+    font-size: 0.8rem; 
+   
+}
+#navbarSupportedContent form button{
+    padding: 5px 30px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: 1px solid orange;
+}
+#navbarSupportedContent{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+#logo{height: 80px;}
+#navbarSupportedContent form input{
+    width: 100%;
+    margin-left:20px;
+    margin-right:30px; 
+    border-radius: 15px;
+    border: 2px solid orange ;
+   
+}
+.navbar{margin-top: 20px;}
+.form-control{
+    width: 100%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.form-inline,#navbarSupportedContent,.navbar{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.navbar-brand{
+    margin-right: 0rem !important;
+}
+.navbar-nav{padding-right: 0px !important;}
+.button_join{margin-left: 40px !important;}
+.nav_second{
+    height:  75px;
+    background-color:rgb(0,0,100);
+}
+#navbarSupported ul li a{
+    color: white;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+.multi-item-carousel {
+    overflow: hidden;
+  }
+  .multi-item-carousel .carousel-indicators {
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+  .multi-item-carousel .carousel-control-prev,
+  .multi-item-carousel .carousel-control-next {
+    background: rgba(255, 255, 255, 0.3);
+    width: 21%;
+    z-index: 11; /* .carousel-caption has z-index 10 */
+  }
+  .multi-item-carousel .carousel-inner {
+    width: 170%;
+    left: -35%
+  }
+  .multi-item-carousel .carousel-item-next:not(.carousel-item-left),
+  .multi-item-carousel .carousel-item-right.active {
+    -webkit-transform: translate3d(33%, 0, 0);
+    transform: translate3d(33%, 0, 0);
+  }
+  .multi-item-carousel .carousel-item-prev:not(.carousel-item-right),
+  .multi-item-carousel .carousel-item-left.active {
+    -webkit-transform: translate3d(-33%, 0, 0);
+    transform: translate3d(-33%, 0, 0);
+  }
+  .multi-item-carousel .item__third {
+    float: left;
+    position: relative;
+    width: 33.33333333%;
+  }
+  .item__third img{
+      height: 350px;
+      padding: 0px 8px;
+  }
+  .carousel-control-prev-icon,.carousel-control-next-icon{
+      background-color: black;
+      border-radius: 50%;
+      position: relative;
+      top:2px;
+  }
+  .prev{
+      background-color: white;
+      padding: 3px 5px;
+      border-radius: 8px;
+  }   
+  .btn_1{
+    margin:40px 0px;
+    background-color: white;
+  }
+  .btn_1 img{
+      background-color: black;
+      vertical-align: middle;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+  }
+  .wallet_image
+  {
+      position: relative;
+      right: 60px;
+      bottom: 370px;
+  }
+  .background-icon-image
+  {
+     
+      position: relative;
+      bottom: 55px;
+  }
+
+  .how_works h1{
+      text-align: center;
+      font-weight: bold;
+  }
+ path{
+     position: absolute;
+ }
+ .container{
+     position: relative;
+ }
+  .how_it_works
+  {
+      text-align: center;
+      padding: 0px 87px;
+      float: left;
+  }
+ 
+  .work_hd{
+      text-align: center;
+      padding-left: 20%;
+  }
+  .how_it_works h5{
+      padding-top: 20px;
+      font-size: 0.8rem;
+      font-weight: bold;
+  }
+  .how_it_works p{
+    font-size: 0.8rem;
+  }
+  .app_info{
+      float: left;
+      text-align: center;
+      padding-top: 260px;
+  }
+  .app_info1{
+    float: left;
+    text-align: center;
+}
+  .path_postion{
+      background-image: url("images/Path_19825.png");
+      background-repeat: no-repeat;
+  }
+  .how_it_works_main{
+    width: 100%;
+    position: relative;
+    bottom: 132px;
+    left: 40px;
+  }
+  #qr_code{
+      width: 100%;
+      
+  }
+  .app_info div{
+      padding-bottom: 20px;
+  }
+  .app_info p{
+      font-weight: bold;
+      text-align: center;
+  }
+  #app{
+      margin:0px;
+  }
+  #all_store{
+      margin-bottom: 80px;
+      color: white;
+      padding: 5px 40px;
+      font-weight: bold;
+  }
+  .app_info1 div button{ margin-top: 10px;}
+  #accordion a:hover{
+      text-decoration: none;
+  }
+  .panel-title{
+    border-bottom: 2px solid gray;
+    padding-bottom: 14px;
+
+  }
+ #accordion a{
+    font-size: 25px;
+    color: gray;
+  }
+  #accordion a img{width: 25px;height: 20px;}
+  #accordion{padding-top: 65px;}
+  #ques{
+      padding: 0px 155px;
+  }
+  #ques_bg{
+      background-image: url("images/Path\ 19899@2x.png");
+      background-repeat: no-repeat;
+  }
+  .fq_ques{
+    padding: 61px 0px;
+  }
+  #footer_bg{
+      border-bottom: 3px solid black;
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+  #footer{
+      padding: 250px 0px 0px 0px;
+      background-image: url("images/Path\ 19875@2x.png");
+      background-repeat: no-repeat;
+      background-position: top;
+      margin: 0px;
+  }
+#footer_block{float: left;
+padding-left: 108px;
+}
+#footer_block h4{
+    margin-bottom: 25px;
+}
+#footer_block p{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+#footer_block img{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+}
+#footer_block_sub_1{
+    float: left;
+    padding-left: 260px;
+}
+#footer_block_sub_2{
+    padding-top: 145px;
+
+}
+#footer_block_sub_2 img{
+    width: 150px;
+    height: 50px;
+
+}
+#stores{
+    height: 440px;
+}
+.stores_bg{
+    background-image: url("images/Group\ 18705@2x.png");
+    background-repeat: no-repeat;
+}
+#get_cashback{
+    font-size: 0.8rem;
+    color: white;
+    width: 100%;
+}
